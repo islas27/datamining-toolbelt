@@ -1,0 +1,42 @@
+{
+  "name": "datamining-toolbelt",
+  "version": "0.5.0",
+  "description": "A small toolbelt to process data in CVS files, made with JS Edit",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "bin": {
+    "data-tool": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/islas27/datamining-toolbelt.git"
+  },
+  "keywords": [
+    "datamining",
+    "js",
+    "cvs",
+    "cli"
+  ],
+  "author": "Jonathan Islas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/islas27/datamining-toolbelt/issues"
+  },
+  "homepage": "https://github.com/islas27/datamining-toolbelt#readme",
+  "dependencies": {
+    "commander": "^2.9.0",
+    "fast-csv": "^2.3.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint": "^3.12.1",
+    "eslint-config-standard": "^6.2.1",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-promise": "^3.4.0",
+    "eslint-plugin-standard": "^2.0.1",
+    "mocha": "^3.2.0",
+    "sinon": "^1.17.6"
+  }
+}
