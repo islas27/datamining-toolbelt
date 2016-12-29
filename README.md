@@ -4,6 +4,14 @@ A small toolbelt to process json data, made with JS. A json file is included as 
 
 ----
 
+## Instalation
+- Clone the repository
+- Install required modules: `npm install`
+- Link the executable: `npm link`
+- You're good to go!
+
+## Usage
+
 ```sh
 Usage: data-tool [command]
 
