@@ -1,7 +1,7 @@
 # datamining-toolbelt
-A small toolbelt to process json data, made with JS
 
-A small json is included as an example of the commands `data.json`
+A small toolbelt to process json data, made with JS. A json file is included as an example of the commands: `data.json`
+
 ----
 
 ```sh
@@ -35,4 +35,4 @@ And it will output to console stats like type of data; max, min and averages for
 ```sh
 data-tool analyze -i id,dateRegistration,firstName data
 ```
-the same as above, excluding the table
+The same as above, excluding the table
